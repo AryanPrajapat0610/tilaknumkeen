@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev{
+    /* position: absolute; */
+    left: 0;
+    z-index: 9;
+    border-radius: 10px;
+    background-color: black;
+}
+.slick-prev:hover{
+    background-color: black;
+}
+.slick-next{
+    right: 0;
+    z-index: 9;
+    background-color: black;
+    border-radius: 10px;
+}
+.slick-next:hover{
+    background-color: black;
+}
+
+.slick-slide > div{
+    margin: 0 10px;
+}
